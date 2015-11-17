@@ -1,0 +1,163 @@
+@import 'var/type';
+@import 'var/color';
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 2;
+  color: $wet-asphalt;
+}
+
+// jumbotron
+.jumbotron {
+  background: $purple url(../img/bridge.jpg) no-repeat center bottom;
+  background-size: cover;
+  border-radius: 0;
+  margin-bottom: 0;
+  color: #fff;
+  .title {
+    padding: 250px 0;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: 200;
+  }
+  .bttn {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 20px 45px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease-in-out;
+  }
+  .bttn:hover {
+    color: $purple;
+    background-color: #fff;
+  }
+}
+
+// section: features
+section.features {
+  h2 {
+    font-family: 'Lato',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .card {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 3rem;
+    border: 0 none;
+  }
+  .card-block {
+    padding: 0;
+    p {
+      line-height: 1.8;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  .card-block > a {
+    display: block;
+    margin: 0 auto 20px;
+    line-height: 0.5;
+    text-align: center;
+    border: 5px solid #f5f5f5;
+    border-radius: 50%;
+  }
+  a {
+    color: $purple;
+    text-decoration: none;
+  }
+}
+section.feature-img {
+  background: $silver url(../img/laptop.jpg) no-repeat center top;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  padding: 80px 0;
+  color: #fff;
+  h4 {
+    font-style: italic;
+    text-shadow: 0 0 2px #000;
+    font-weight: 400;
+  }
+  .quote {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .quote::before {
+    content: open-quote;
+  }
+  .quote::after {
+    content: close-quote;
+  }
+}
+section.impressum {
+  h2 {
+    font-family: 'Lato',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  p {
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: left;
+  }
+}
+.foot{
+  background: $peter-river url(../img/laptop.jpg) no-repeat center bottom;
+  background-size:cover;
+  width: 100%;
+  height: 280px;
+  padding: 80px 0;
+  color: #fff;
+  a {
+    color: #fff;
+    padding: 20px 40px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  span {
+    color: $purple;
+  }
+}
+
+// misc
+.center-vertical {
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+@media (min-width: 320px) {
+  .jumbotron {
+    padding: 4rem 2rem;
+  }
+}
+
+//margin-bottom-large
+.m-b-lg {
+  margin-bottom: 3rem !important;
+}
+.m-b-lg-x {
+  margin-bottom: 8rem !important;
+}
+.m-b-sm {
+  margin-bottom: 2rem !important;
+}
