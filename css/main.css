@@ -83,47 +83,44 @@ section.features .card-block > a {
   margin: 0 auto 20px;
   line-height: 0.5;
   text-align: center;
-  border: 5px solid #f5f5f5;
-  border-radius: 50%;
 }
-/* line 77, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 section.features a {
   color: #0072bc;
   text-decoration: none;
 }
 
-/* line 82, ../scss/main.scss */
+/* line 80, ../scss/main.scss */
 section.feature-img {
   background: #bdc3c7 url(../img/laptop.jpg) no-repeat center top;
   background-size: cover;
   width: 100%;
-  height: 400px;
   padding: 80px 0;
   color: #fff;
 }
-/* line 89, ../scss/main.scss */
+/* line 87, ../scss/main.scss */
 section.feature-img h4 {
   font-style: italic;
   text-shadow: 0 0 2px #000;
   font-weight: 400;
 }
-/* line 94, ../scss/main.scss */
+/* line 92, ../scss/main.scss */
 section.feature-img .quote {
   font-size: 22px;
   font-weight: 200;
   line-height: 1.7;
   text-align: center;
 }
-/* line 100, ../scss/main.scss */
+/* line 98, ../scss/main.scss */
 section.feature-img .quote::before {
   content: open-quote;
 }
-/* line 103, ../scss/main.scss */
+/* line 101, ../scss/main.scss */
 section.feature-img .quote::after {
   content: close-quote;
 }
 
-/* line 108, ../scss/main.scss */
+/* line 106, ../scss/main.scss */
 section.impressum h2 {
   font-family: 'Lato',sans-serif;
   font-size: 30px;
@@ -131,14 +128,14 @@ section.impressum h2 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* line 115, ../scss/main.scss */
+/* line 113, ../scss/main.scss */
 section.impressum p {
   line-height: 1.8;
   font-weight: 400;
   text-align: left;
 }
 
-/* line 121, ../scss/main.scss */
+/* line 119, ../scss/main.scss */
 .foot {
   background: #3498db url(../img/laptop.jpg) no-repeat center bottom;
   background-size: cover;
@@ -147,22 +144,22 @@ section.impressum p {
   padding: 80px 0;
   color: #fff;
 }
-/* line 128, ../scss/main.scss */
+/* line 126, ../scss/main.scss */
 .foot a {
   color: #fff;
   padding: 20px 40px;
   text-decoration: none;
 }
-/* line 133, ../scss/main.scss */
+/* line 131, ../scss/main.scss */
 .foot a:hover {
   text-decoration: none;
 }
-/* line 136, ../scss/main.scss */
+/* line 134, ../scss/main.scss */
 .foot span {
   color: #0072bc;
 }
 
-/* line 142, ../scss/main.scss */
+/* line 140, ../scss/main.scss */
 .center-vertical {
   display: table;
   width: 100%;
@@ -171,22 +168,22 @@ section.impressum p {
 }
 
 @media (min-width: 320px) {
-  /* line 149, ../scss/main.scss */
+  /* line 147, ../scss/main.scss */
   .jumbotron {
     padding: 4rem 2rem;
   }
 }
-/* line 155, ../scss/main.scss */
+/* line 153, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 3rem !important;
 }
 
-/* line 158, ../scss/main.scss */
+/* line 156, ../scss/main.scss */
 .m-b-lg-x {
   margin-bottom: 8rem !important;
 }
 
-/* line 161, ../scss/main.scss */
+/* line 159, ../scss/main.scss */
 .m-b-sm {
   margin-bottom: 2rem !important;
 }
