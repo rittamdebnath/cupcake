@@ -148,17 +148,20 @@ section.impressum p {
   color: #fff;
   margin: 0 20px;
   text-decoration: none;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
 }
-/* line 129, ../scss/main.scss */
+/* line 131, ../scss/main.scss */
 .foot a:hover {
+  color: #0072bc;
   text-decoration: none;
 }
-/* line 132, ../scss/main.scss */
+/* line 135, ../scss/main.scss */
 .foot span {
   color: #0072bc;
 }
 
-/* line 138, ../scss/main.scss */
+/* line 141, ../scss/main.scss */
 .center-vertical {
   display: table;
   width: 100%;
@@ -167,26 +170,26 @@ section.impressum p {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 146, ../scss/main.scss */
+  /* line 149, ../scss/main.scss */
   .jumbotron {
     padding: 4rem 2rem;
   }
-  /* line 148, ../scss/main.scss */
+  /* line 151, ../scss/main.scss */
   .jumbotron .title {
     padding: 0;
   }
 }
-/* line 155, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 3rem !important;
 }
 
-/* line 158, ../scss/main.scss */
+/* line 161, ../scss/main.scss */
 .m-b-lg-x {
   margin-bottom: 8rem !important;
 }
 
-/* line 161, ../scss/main.scss */
+/* line 164, ../scss/main.scss */
 .m-b-sm {
   margin-bottom: 2rem !important;
 }
