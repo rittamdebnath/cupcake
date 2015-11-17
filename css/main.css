@@ -7,9 +7,12 @@ html,
 body {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-/* line 8, ../scss/main.scss */
+/* line 11, ../scss/main.scss */
 body {
   font-family: 'Lato',sans-serif;
   font-weight: 300;
@@ -18,7 +21,7 @@ body {
   color: #34495e;
 }
 
-/* line 17, ../scss/main.scss */
+/* line 20, ../scss/main.scss */
 .jumbotron {
   background: #0072bc url(../img/bridge.jpg) no-repeat center bottom;
   background-size: cover;
@@ -26,16 +29,16 @@ body {
   margin-bottom: 0;
   color: #fff;
 }
-/* line 23, ../scss/main.scss */
+/* line 26, ../scss/main.scss */
 .jumbotron .title {
   padding: 250px 0;
 }
-/* line 26, ../scss/main.scss */
+/* line 29, ../scss/main.scss */
 .jumbotron h1 {
   font-size: 60px;
   font-weight: 200;
 }
-/* line 30, ../scss/main.scss */
+/* line 33, ../scss/main.scss */
 .jumbotron .bttn {
   border: 1px solid #fff;
   border-radius: 50px;
@@ -46,13 +49,13 @@ body {
   letter-spacing: 0.1em;
   transition: all 0.3s ease-in-out;
 }
-/* line 40, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 .jumbotron .bttn:hover {
   color: #0072bc;
   background-color: #fff;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 section.features h2 {
   font-family: 'Lato',sans-serif;
   font-size: 30px;
@@ -60,37 +63,37 @@ section.features h2 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* line 55, ../scss/main.scss */
+/* line 58, ../scss/main.scss */
 section.features .card {
   padding-left: 0;
   padding-right: 0;
   margin-bottom: 3rem;
   border: 0 none;
 }
-/* line 61, ../scss/main.scss */
+/* line 64, ../scss/main.scss */
 section.features .card-block {
   padding: 0;
 }
-/* line 63, ../scss/main.scss */
+/* line 66, ../scss/main.scss */
 section.features .card-block p {
   line-height: 1.8;
   font-weight: 400;
   text-align: center;
 }
-/* line 69, ../scss/main.scss */
+/* line 72, ../scss/main.scss */
 section.features .card-block > a {
   display: block;
   margin: 0 auto 20px;
   line-height: 0.5;
   text-align: center;
 }
-/* line 75, ../scss/main.scss */
+/* line 78, ../scss/main.scss */
 section.features a {
   color: #0072bc;
   text-decoration: none;
 }
 
-/* line 80, ../scss/main.scss */
+/* line 83, ../scss/main.scss */
 section.feature-img {
   background: #bdc3c7 url(../img/laptop.jpg) no-repeat center top;
   background-size: cover;
@@ -98,29 +101,29 @@ section.feature-img {
   padding: 80px 0;
   color: #fff;
 }
-/* line 86, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 section.feature-img h4 {
   font-style: italic;
   text-shadow: 0 0 2px #000;
   font-weight: 400;
 }
-/* line 91, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 section.feature-img .quote {
   font-size: 22px;
   font-weight: 200;
   line-height: 1.7;
   text-align: center;
 }
-/* line 97, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 section.feature-img .quote::before {
   content: open-quote;
 }
-/* line 100, ../scss/main.scss */
+/* line 103, ../scss/main.scss */
 section.feature-img .quote::after {
   content: close-quote;
 }
 
-/* line 105, ../scss/main.scss */
+/* line 108, ../scss/main.scss */
 section.impressum h2 {
   font-family: 'Lato',sans-serif;
   font-size: 30px;
@@ -128,14 +131,14 @@ section.impressum h2 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* line 112, ../scss/main.scss */
+/* line 115, ../scss/main.scss */
 section.impressum p {
   line-height: 1.8;
   font-weight: 400;
   text-align: left;
 }
 
-/* line 118, ../scss/main.scss */
+/* line 121, ../scss/main.scss */
 .foot {
   background: #3498db url(../img/laptop.jpg) no-repeat center bottom;
   background-size: cover;
@@ -143,25 +146,25 @@ section.impressum p {
   padding: 80px 0;
   color: #fff;
 }
-/* line 124, ../scss/main.scss */
+/* line 127, ../scss/main.scss */
 .foot a {
   color: #fff;
   margin: 0 20px;
   text-decoration: none;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-/* line 131, ../scss/main.scss */
+/* line 134, ../scss/main.scss */
 .foot a:hover {
   color: #0072bc;
   text-decoration: none;
 }
-/* line 135, ../scss/main.scss */
+/* line 138, ../scss/main.scss */
 .foot span {
   color: #0072bc;
 }
 
-/* line 141, ../scss/main.scss */
+/* line 144, ../scss/main.scss */
 .center-vertical {
   display: table;
   width: 100%;
@@ -170,26 +173,26 @@ section.impressum p {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 149, ../scss/main.scss */
+  /* line 151, ../scss/main.scss */
   .jumbotron {
     padding: 4rem 2rem;
   }
-  /* line 151, ../scss/main.scss */
+  /* line 153, ../scss/main.scss */
   .jumbotron .title {
     padding: 0;
   }
 }
-/* line 158, ../scss/main.scss */
+/* line 160, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 3rem !important;
 }
 
-/* line 161, ../scss/main.scss */
+/* line 163, ../scss/main.scss */
 .m-b-lg-x {
   margin-bottom: 8rem !important;
 }
 
-/* line 164, ../scss/main.scss */
+/* line 166, ../scss/main.scss */
 .m-b-sm {
   margin-bottom: 2rem !important;
 }
