@@ -95,33 +95,32 @@ section.feature-img {
   background: #bdc3c7 url(../img/laptop.jpg) no-repeat center top;
   background-size: cover;
   width: 100%;
-  height: 400px;
   padding: 80px 0;
   color: #fff;
 }
-/* line 87, ../scss/main.scss */
+/* line 86, ../scss/main.scss */
 section.feature-img h4 {
   font-style: italic;
   text-shadow: 0 0 2px #000;
   font-weight: 400;
 }
-/* line 92, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 section.feature-img .quote {
   font-size: 22px;
   font-weight: 200;
   line-height: 1.7;
   text-align: center;
 }
-/* line 98, ../scss/main.scss */
+/* line 97, ../scss/main.scss */
 section.feature-img .quote::before {
   content: open-quote;
 }
-/* line 101, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 section.feature-img .quote::after {
   content: close-quote;
 }
 
-/* line 106, ../scss/main.scss */
+/* line 105, ../scss/main.scss */
 section.impressum h2 {
   font-family: 'Lato',sans-serif;
   font-size: 30px;
@@ -129,38 +128,37 @@ section.impressum h2 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* line 113, ../scss/main.scss */
+/* line 112, ../scss/main.scss */
 section.impressum p {
   line-height: 1.8;
   font-weight: 400;
   text-align: left;
 }
 
-/* line 119, ../scss/main.scss */
+/* line 118, ../scss/main.scss */
 .foot {
   background: #3498db url(../img/laptop.jpg) no-repeat center bottom;
   background-size: cover;
   width: 100%;
-  height: 280px;
   padding: 80px 0;
   color: #fff;
 }
-/* line 126, ../scss/main.scss */
+/* line 124, ../scss/main.scss */
 .foot a {
   color: #fff;
-  padding: 20px 40px;
+  margin: 0 20px;
   text-decoration: none;
 }
-/* line 131, ../scss/main.scss */
+/* line 129, ../scss/main.scss */
 .foot a:hover {
   text-decoration: none;
 }
-/* line 134, ../scss/main.scss */
+/* line 132, ../scss/main.scss */
 .foot span {
   color: #0072bc;
 }
 
-/* line 140, ../scss/main.scss */
+/* line 138, ../scss/main.scss */
 .center-vertical {
   display: table;
   width: 100%;
@@ -168,23 +166,23 @@ section.impressum p {
   margin-bottom: 0;
 }
 
-@media (min-width: 320px) {
-  /* line 147, ../scss/main.scss */
+@media (max-width: 320px) {
+  /* line 145, ../scss/main.scss */
   .jumbotron {
     padding: 4rem 2rem;
   }
 }
-/* line 153, ../scss/main.scss */
+/* line 152, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 3rem !important;
 }
 
-/* line 156, ../scss/main.scss */
+/* line 155, ../scss/main.scss */
 .m-b-lg-x {
   margin-bottom: 8rem !important;
 }
 
-/* line 159, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 .m-b-sm {
   margin-bottom: 2rem !important;
 }
