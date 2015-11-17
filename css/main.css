@@ -166,14 +166,14 @@ section.impressum p {
   margin-bottom: 0;
 }
 
-@media (max-width: 360px) {
-  /* line 145, ../scss/main.scss */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 146, ../scss/main.scss */
   .jumbotron {
     padding: 4rem 2rem;
   }
-  /* line 147, ../scss/main.scss */
+  /* line 148, ../scss/main.scss */
   .jumbotron .title {
-    padding: 0 0;
+    padding: 0;
   }
 }
 /* line 155, ../scss/main.scss */
