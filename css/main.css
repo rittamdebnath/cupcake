@@ -166,23 +166,27 @@ section.impressum p {
   margin-bottom: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   /* line 145, ../scss/main.scss */
   .jumbotron {
     padding: 4rem 2rem;
   }
+  /* line 147, ../scss/main.scss */
+  .jumbotron .title {
+    padding: 0 0;
+  }
 }
-/* line 152, ../scss/main.scss */
+/* line 155, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 3rem !important;
 }
 
-/* line 155, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 .m-b-lg-x {
   margin-bottom: 8rem !important;
 }
 
-/* line 158, ../scss/main.scss */
+/* line 161, ../scss/main.scss */
 .m-b-sm {
   margin-bottom: 2rem !important;
 }
